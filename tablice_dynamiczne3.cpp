@@ -38,9 +38,11 @@ class kalsa{
         
         cout<<"\npowtarzajace sie elementy:";
         for(int i = 0 ;i<w;i++){
-            if(tab[i]=tab2[i]){
+            for(int j = 0 ;j<w;j++){
+                if(tab[i]==tab2[j]){
                 
-                cout<<tab[i]<<" ";
+                    cout<<tab[i]<<" ";
+                }
             }
         }
      
